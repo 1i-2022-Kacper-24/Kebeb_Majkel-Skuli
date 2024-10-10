@@ -15,10 +15,9 @@ body {
 
 
 img {
+    width: auto; /* Sprawia, że zdjęcia wypełniają kolumny */
     height: 10rem;
-    width: auto;
     border: none;
     border-radius: 20%;
     margin: 2rem;
-    display: grid;
 }
