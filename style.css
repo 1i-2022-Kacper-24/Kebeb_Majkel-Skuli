@@ -6,6 +6,8 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     align-items: center;
+    background: rgb(255,210,59);
+    background: linear-gradient(90deg, rgba(255,210,59,1) 1%, rgba(224,201,138,1) 51%, rgba(255,208,52,1) 100%); 
 }
 
 
@@ -23,12 +25,16 @@ img {
     margin: 2rem;
     box-shadow: 20%;
     border: 10px solid #fff;
-    margin: 50px;
+    margin: 60px;
   overflow: hidden;
   -webkit-box-shadow: 5px 5px 5px #111;
   box-shadow: 5px 5px 5px #111;  
 }
 
+#img-2 {
+    width: -20%;
+    height: -20%;
+}
 img:hover {
     box-shadow: 20%;
     border: 10px solid #fff;  
@@ -44,4 +50,9 @@ img:hover {
 .historyOfKebab {
     width: 90%;
     margin-left: 5rem;
+    color: rgb(82, 49, 0);
+}
+
+a {
+    text-decoration: none;
 }
