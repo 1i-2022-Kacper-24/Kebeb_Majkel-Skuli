@@ -63,16 +63,19 @@ img:hover {
 
 a {
     text-decoration: none;
+    color:  rgb(82, 49, 0);
 }
 
 a:visited {
-    color:  rgb(82, 49, 0)
+    color:  rgb(82, 49, 0);
 }
 
 .ranking {
     padding: 0;
     margin: 0;
 }
+
+
 
 ol {
     color: #000000;
